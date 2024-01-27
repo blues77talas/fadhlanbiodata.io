@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        header {
+            background-color: #ccc;
+            color: black;
+            text-align: center;
+            padding: 40px 0;
+            border-radius: 8px 8px 0 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: black;
+        }
+
+        header p {
+            color: black;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .project {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+            border-radius: 0 0 8px 8px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Your Name - Portfolio</h1>
+            <p>Welcome to My Professional Portfolio</p>
+        </header>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li class="project">
+                    <h3>Project Title 1</h3>
+                    <p>Description of Project 1.</p>
+                    <img src="project1.jpg" alt="Project 1 Image">
+                </li>
+
+                <li class="project">
+                    <h3>Project Title 2</h3>
+                    <p>Description of Project 2.</p>
+                    <img src="project2.jpg" alt="Project 2 Image">
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            &copy; 2024 Your Name
+        </footer>
+    </div>
+
+</body>
+
+</html>
